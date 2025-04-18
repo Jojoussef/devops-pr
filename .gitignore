@@ -1,0 +1,4 @@
+venv/
+back/application_layer/app/__pycache__/
+back/application_layer/application_layer/__pycache__/
+back/application_layer/app/migrations/__pycache__/__init__.cpython-312.pyc
