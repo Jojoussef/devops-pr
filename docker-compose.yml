@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: ./front/presentation_layer
+      dockerfile: Dockerfile
+    volumes:
+      - ./front/presentation_layer:/app
+      - /app/node_modules
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
