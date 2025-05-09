@@ -42,8 +42,7 @@ terraform init
 terraform apply --auto-approve
 ```
 
-### Kubernetes (Optional)
-
+### Kubernetes
 ```bash
 kubectl apply -f k8s/
 kubectl get pods,svc
