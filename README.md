@@ -10,8 +10,8 @@ This repository contains a fully implemented DevOps workflow for a three-tier we
 * Git v2+
 * Node.js & npm
 * Python 3.11+
-* (Optional) Terraform v1.0+
-* (Optional) Minikube or Kind for Kubernetes
+* Terraform v1.0+
+* Minikube or Kind for Kubernetes
 
 ### Running Locally
 
