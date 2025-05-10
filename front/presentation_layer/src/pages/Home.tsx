@@ -3,14 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
-import {
-  Plus,
-  Trash2,
-  CheckCircle,
-  TimerReset,
-  Play,
-  Pause,
-} from "lucide-react";
+import { Plus, Trash2, CheckCircle, Play, Pause } from "lucide-react";
 import { toast } from "sonner";
 
 type Task = {
@@ -179,7 +172,7 @@ const Home = () => {
                     variant="ghost"
                     size="sm"
                     color="amber"
-                    className="gap-1 text-white bg-amber-400"
+                    className="gap-1 text-white"
                     disabled={t.completed}
                   >
                     {t.isRunning ? (
